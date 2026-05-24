@@ -1,0 +1,18 @@
+/**
+ * Example: Simple JavaScript Project Input
+ * A minimal JS project for testing migrations
+ */
+
+{
+  "name": "simple-js-project",
+  "version": "1.0.0",
+  "description": "A simple JavaScript project for migration testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
