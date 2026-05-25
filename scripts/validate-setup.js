@@ -1,12 +1,16 @@
 #!/usr/bin/env node
 /**
- * Validation System - Comprehensive Setup Checker (JavaScript version)
+ * Validation System - Comprehensive Setup Checker (ES Module version)
  * Can be run directly without ts-node
  */
 
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+import fs from 'fs';
+import path from 'path';
+import { execSync } from 'child_process';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const results = [];
 const RED = '\x1b[31m';
