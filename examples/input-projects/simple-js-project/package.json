@@ -1,8 +1,3 @@
-/**
- * Example: Simple JavaScript Project Input
- * A minimal JS project for testing migrations
- */
-
 {
   "name": "simple-js-project",
   "version": "1.0.0",
