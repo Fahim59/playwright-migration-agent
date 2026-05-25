@@ -11,6 +11,7 @@
     "migrate": "ts-node src/cli/migrate.ts",
     "test": "jest",
     "test:pw": "playwright test",
+    "validate": "node scripts/validate-setup.js",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
